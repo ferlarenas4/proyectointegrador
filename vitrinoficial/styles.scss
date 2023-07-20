@@ -1,0 +1,57 @@
+h1{
+    color: aliceblue
+}
+
+$primary: #6F275D;
+$danger: #48114D;
+$secondary: #FDDBDB;
+$success: #C79BCB;
+$warning: #E6FCF6;
+$light: #F3F3F3;
+$dark: #000000;
+$white: #FFFFFF;
+
+
+$theme-colors: (
+    "primary": $primary,
+    "danger": $danger,
+    "secondary": $secondary,
+    "success": $success,
+    "warning": $warning,
+    "light": $light,
+    "dark": $dark,
+    "white": $white,
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color:#FDDBDB
+}
+
+/* ================= MENU NAVBAR ============================ */
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu a {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#menu img {
+    height: 130px;
+    margin-left: 100px;
+}
+
+#btnCarrito {
+    width: 80px;
+    margin-right: 100px;
+}
+
+

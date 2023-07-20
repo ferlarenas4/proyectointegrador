@@ -24,23 +24,28 @@ body{
     margin-top: -20px;
 }
 
-.btn{
-    color: white;
+#compraYalg {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
     background-color: #6F275D;
-    border-radius: 50px;
-    width: 170px;
+    color: white;
+    width: 180px;
+    border-radius: 6px;
+    
 }
-
 .btn2{
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
     color: white;
     background-color: #6F275D;
     border-radius: 20px 0 0 0;
     width: 200px;
     height: 50px;
-    border-image: fill;
+    padding: 15px;
 }
 
-.btn:hover{
+#compraYalg:hover{
     background-color: #FCE3E3;
     border: none;
 }
@@ -48,6 +53,7 @@ h1,h2,h3,h5,h6{
     color: #48114D;
     font-family: "Cabin", sans-serif;
     font-weight: bold;
+   
 }
 .barra-horizontal{
         position: absolute;

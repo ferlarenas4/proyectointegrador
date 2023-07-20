@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bottom Bar</title>
+  <style>
+    /* Estilos para el bottom bar */
+    .bottom-bar {
+      background-color: #48114D;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      color: #fff;
+    }
+    
+    .bottom-bar-section {
+      display: flex;
+      align-items: center;
+    }
+    
+    .bottom-bar-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+    }
+    
+    .bottom-bar-logo {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .bottom-bar-link {
+      margin-bottom: 5px;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .bottom-bar-link:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="bottom-bar">
+    <div class="bottom-bar-section">
+      <div class="bottom-bar-column">
+        <div class="bottom-bar-logo">
+          <img src="logo.png" alt="Logo" width="178" height="178">
+        </div>
+        <a href="#" class="bottom-bar-link">Mi cuenta</a>
+        <a href="#" class="bottom-bar-link">Iniciar sesión</a>
+        <a href="#" class="bottom-bar-link">Registrarme</a>
+        <a href="#" class="bottom-bar-link">Olvidé mi contraseña</a>
+      </div>
+    </div>
+    <div class="bottom-bar-section">
+      <div class="bottom-bar-column">
+        <a href="#" class="bottom-bar-link">Nosotros</a>
+        <a href="#" class="bottom-bar-link">Quiénes somos</a>
+        <a href="#" class="bottom-bar-link">Términos y condiciones</a>
+        <a href="#" class="bottom-bar-link">Políticas de privacidad</a>
+      </div>
+    </div>
+    <div class="bottom-bar-section">
+      <div class="bottom-bar-column">
+        <a href="#" class="bottom-bar-link">Necesitas ayuda</a>
+        <a href="#" class="bottom-bar-link">Preguntas frecuentes</a>
+        <a href="#" class="bottom-bar-link">Cambios y devoluciones</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
